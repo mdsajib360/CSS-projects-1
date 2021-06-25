@@ -1,0 +1,94 @@
+body{
+  font-family: 'Philosopher', sans-serif; 
+}
+
+/* Utility Classes */
+.img-resp{
+  max-width: 100%;
+  width: 100%;
+  
+}
+
+.hero-image{
+  background: url(images/heroimage.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+
+.hero-wrapper{
+   color: white;
+   position: absolute;
+   top: 50%;
+   left:50%;  
+   transform: translate(-50%, -50%);
+}
+
+.hero-wrapper h1{
+  font-size: 2.4rem;
+  text-align: center;
+}
+.hero-wrapper span{
+  margin-left: 5rem;
+  display: inline-block;
+  margin-bottom: .5rem;
+} 
+
+.form-code{
+  text-align: center;
+
+}
+.form-code .post-code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+
+.form-code button{
+   display: inline-block;
+  width: 40%;
+  text-align: center;
+  background-color: #00bab1;
+  padding: .6rem;
+  margin: 1rem auto 0rem;
+  border: none;
+  border-radius: .3rem;
+
+
+}
+
+/* product section  */
+
+.product{
+
+  width: 90%;
+  margin-left:auto;
+  margin-right: auto;
+
+  margin-top: 0.3rem;
+  
+ 
+}
+
+.product-list-item{
+  float: left;
+  width: 32%;
+  margin-left: 0.5rem;
+}
+
+.product-list-item:first-of-type{
+  margin-left: 0;
+}
+
+@media screen and (max-width:700px){
+  .product-list-item{
+    width: 100%;
+    float: none;
+  }
+}
